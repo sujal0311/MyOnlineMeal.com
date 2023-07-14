@@ -155,7 +155,7 @@ border: 2px solid black;
     padding: 15px;
     margin: 2px 8px;
     margin-bottom: 5px;
-    border: 4px solid brown;
+    border: 2px solid brown;
 border-radius: 28px;
 background-color: white;
 }
@@ -176,7 +176,7 @@ background-color: white;
     content: "";
     position: absolute;
   
-  background: url('https://cdn.wallpapersafari.com/83/16/Lc1Vne.jpg');
+  background: url('https://cdn.wallpapersafari.com/83/16/Lc1Vne.jpg') no-repeat center/cover;
   width: 100%;
 
     height: 100%;
