@@ -1,0 +1,131 @@
+html{
+    scroll-behavior: smooth;
+    }
+     #home{
+        margin-left: 550px;
+        padding-left: 15px;
+        padding-right: 2px;
+    margin-top: 0px;}
+    #home::before{
+        box-sizing: border-box;
+              width: 500%;
+              height: 100%;
+              margin-left: 400px;
+          }
+          #home h1{
+            font-size: 45px;
+            padding: 10px 38px;
+            margin-top: 200px;
+           
+        }
+        #home h3{
+            font-size: 30px;
+            padding: 6px;
+            padding-left: 6px;
+            
+            width: 380px;
+            text-align: justify;
+        }
+        #home p{
+            font-size: 20px;
+            padding-left: 6px;
+           text-align: none;
+           margin-left: 40px;
+           width: 480px;
+        }
+        .btn{
+            font-size: 12px;
+    
+    width: 100px;
+    height: 50px;
+        }
+    .btn:hover{
+    font-size: 12px;
+    width: 110px;
+    height: 60px;
+    padding: 0px;
+        }
+        #services{
+            margin-left: 35px;
+            
+        }
+        #services-container h1{
+            color: brown;
+            display: block;
+            margin: auto;
+            padding-top: 135px;
+            padding-bottom: 1px;
+            padding-left: 550px;
+            font-size: 35px;
+         
+         width:300px;
+   
+
+        }
+        #services .box {
+           
+            flex-direction: column;
+        box-sizing: border-box;
+       padding: 10px;
+       margin: 50px;
+        
+        }
+        #services .box img{
+        width: 350px;
+        height: 200px;
+        }
+          /*  client section*/
+#clients{
+    flex-wrap: wrap;
+    }
+    #clients h1{
+       padding-top: 6px;
+       padding-left: 600px;
+       font-size: 35px;
+    }
+    #clients-section{
+        padding-left: 600px;
+    }
+    #clients-section::before{
+        width: 450%;
+        height: 120%;
+    }
+    #clients img{
+        width: 86px;
+        padding-left: 4px;
+        padding-right: 2px;
+    }
+    /* contact section */
+#contact{
+    flex-wrap: wrap;
+    height: 70%;
+    margin-top: 100px;
+    }
+    #contact-box{
+        padding-left: 150px;
+    }
+    #contact-box form{
+        
+       padding: 6px 8px;
+       margin-left: 200px;
+        font-size: 20px;
+        border-radius: 8px;
+        border: 2px solid black;
+        
+    }
+    #contact::before{
+        height: 120%;
+        width:420%
+    }
+    
+    /* footer section */
+    .copyright{
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 70px ;
+        padding-right: 730px;
+        font-size: 20px;
+        width: 170%;
+    }
+            
